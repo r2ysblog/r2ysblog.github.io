@@ -1,0 +1,66 @@
+<!doctype html><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en-us lang=en-us><head><link href=https://gmpg.org/xfn/11 rel=profile><meta charset=utf-8><meta name=generator content="Hugo 0.62.2"><meta name=viewport content="width=device-width,initial-scale=1"><title>&#183; My New Hugo Site</title><meta name=description content><link type=text/css rel=stylesheet href=http://example.org/css/print.css media=print><link type=text/css rel=stylesheet href=http://example.org/css/poole.css><link type=text/css rel=stylesheet href=http://example.org/css/syntax.css><link type=text/css rel=stylesheet href=http://example.org/css/hyde.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700"><link rel=apple-touch-icon-precomposed sizes=144x144 href=/apple-touch-icon-144-precomposed.png><link rel="shortcut icon" href=/favicon.png></head><body><aside class=sidebar><div class="container sidebar-sticky"><div class=sidebar-about><a href=http://example.org/><h1>My New Hugo Site</h1></a><p class=lead>An elegant open source and mobile first theme for <a href=http://hugo.spf13.com>hugo</a> made by <a href=http://twitter.com/mdo>@mdo</a>. Originally made for Jekyll.</p></div><nav><ul class=sidebar-nav><li><a href=http://example.org/>Home</a></li></ul></nav><p>&copy; 2021. All rights reserved.</p></div></aside><main class="content container"><div class=post><h1></h1><time datetime=0001-01-01T00:00:00Z class=post-date>Mon, Jan 1, 0001</time><h1 id=mac下管理多个git账号以及使用>mac下管理多个git账号以及使用</h1><h2 id=使用ssh免密管理git>使用ssh免密管理git</h2><p>生成git账号对应的公私钥
+以github为例</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># 进入ssh目录</span>
+cd /Users/<span style=color:#f92672>{</span>accountname<span style=color:#f92672>}</span>/.ssh/
+<span style=color:#75715e># 生成 SSH key</span>
+ssh-keygen -t rsa -C <span style=color:#e6db74>&#34;abc@qq.com&#34;</span>
+<span style=color:#75715e># 出现以下提示</span>
+Generating public/private rsa key pair.
+Enter file in which to save the key <span style=color:#f92672>(</span>/Users/<span style=color:#f92672>{</span>username<span style=color:#f92672>}</span>/.ssh/id_rsa<span style=color:#f92672>)</span>:
+<span style=color:#75715e># 此时输入目录:/Users/{username}/.ssh/id_rsa_github_abc</span>
+Enter file in which to save the key <span style=color:#f92672>(</span>/Uses/<span style=color:#f92672>{</span>username<span style=color:#f92672>}</span>/.ssh/id_rsa<span style=color:#f92672>)</span>: /Users/<span style=color:#f92672>{</span>username<span style=color:#f92672>}</span>/.ssh/id_rsa_github_abc
+<span style=color:#75715e># 继续回车,直到出现：</span>
+The key s randomart image is:
++---<span style=color:#f92672>[</span>RSA 2048<span style=color:#f92672>]</span>----+
+|        o o..<span style=color:#f92672>=</span>+o |
+|       . @. + o X|
+|        B..B o   |
+|       . oB B . E|
+|        So X <span style=color:#f92672>=</span> + |
+|        ..* X o .|
+|       ..+ O o   |
+|        o.* .    |
+|        .o .     |
++----<span style=color:#f92672>[</span>SHA256<span style=color:#f92672>]</span>-----+
+<span style=color:#75715e># 将生成的公钥拷贝到剪贴板上，到github管理ssh的页面贴入即可</span>
+pbcopy &lt; ~/.ssh/id_rsa_github_abc.pub
+<span style=color:#75715e># 将生成的私钥添加到ssh中</span>
+ssh-add ~/.ssh/id_rsa_github_abc
+<span style=color:#75715e># 查看是否添加成功</span>
+ssh-add -l
+<span style=color:#75715e># 测试是否成功</span>
+ssh -T git@github.com
+
+</code></pre></div><p>针对多账号管理，需要配置config</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># 进入ssh目录</span>
+cd /Users/<span style=color:#f92672>{</span>accountname<span style=color:#f92672>}</span>/.ssh/
+<span style=color:#75715e># 打开或创建config文件</span>
+vim config
+<span style=color:#75715e># 添加如下配置内容</span>
+Host github_abc
+HostName github.com
+PreferredAuthentications publickey
+user git
+<span style=color:#75715e>#user abc@qq.com</span>
+IdentityFile ~/.ssh/id_rsa_github_abc
+<span style=color:#75715e># 如果还有别的账号，参考该配置添加即可</span>
+Host github_ddd
+HostName github.com
+PreferredAuthentications publickey
+user git
+<span style=color:#75715e>#user ddd@qq.com</span>
+IdentityFile ~/.ssh/id_rsa_github_ddd
+
+
+</code></pre></div><p>拉取仓库</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell><span style=color:#75715e># 原先github中的ssh地址为</span>
+git clone git@github.com:abc/test.git
+<span style=color:#75715e># 需要修改为别名</span>
+git clone github_abc:abc/test.git
+<span style=color:#75715e># 其它git提交正常操作即可</span>
+</code></pre></div><p>如果是之前已经克隆的仓库，需要手动修改git地址</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>vim .git/config
+<span style=color:#75715e># 修改url</span>
+<span style=color:#f92672>[</span>remote <span style=color:#e6db74>&#34;origin&#34;</span><span style=color:#f92672>]</span>
+        url <span style=color:#f92672>=</span> git@github_abc:abc/test.git
+
+</code></pre></div><h2 id=单独git账号下的管理设置全局方式>单独git账号下的管理，设置全局方式</h2><p>git config &ndash;global user.name &ldquo;xxx&rdquo; # 配置全局用户名，如Github上注册的用户名
+git config &ndash;global user.email &ldquo;<a href=mailto:yyy@mail.com>yyy@mail.com</a>&rdquo; #配置全局邮箱，如Github上配置的邮箱</p><h2 id=重置>重置</h2><p>git config &ndash;global &ndash;unset user.name
+git config &ndash;global &ndash;unset user.email</p><h2 id=查询>查询</h2><p>git config &ndash;global user.name
+git config &ndash;global user.email</p></div></main></body></html>
