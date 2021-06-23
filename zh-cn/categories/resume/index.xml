@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resume on r2ys blog</title>
+    <link>/zh-cn/categories/resume/</link>
+    <description>Recent content in resume on r2ys blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} r2ys. All Rights Reserved.</copyright>
+    <lastBuildDate>Wed, 15 Jan 2020 09:33:05 +0800</lastBuildDate><atom:link href="/zh-cn/categories/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how to descripe in resume</title>
+      <link>/zh-cn/posts/notes/2020-01-15-how-to-descripe-in-resume/</link>
+      <pubDate>Wed, 15 Jan 2020 09:33:05 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-how-to-descripe-in-resume/</guid>
+      <description>写好一份技术简历的要点 几个注意点 框架是重点，但别让人感觉你只会山寨别人的代码 别单纯看单机版的框架，适当了解些分布式 数据库方面，别就知道增删改</description>
+    </item>
+    
+  </channel>
+</rss>

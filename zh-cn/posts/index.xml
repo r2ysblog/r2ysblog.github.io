@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文章 on r2ys blog</title>
+    <link>/zh-cn/posts/</link>
+    <description>Recent content in 文章 on r2ys blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} r2ys. All Rights Reserved.</copyright>
+    <lastBuildDate>Thu, 16 Jan 2020 08:47:24 +0800</lastBuildDate><atom:link href="/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ios develop certificate understanding</title>
+      <link>/zh-cn/posts/notes/2020-01-16-ios-develop-certificate-understanding/</link>
+      <pubDate>Thu, 16 Jan 2020 08:47:24 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-16-ios-develop-certificate-understanding/</guid>
+      <description>理解iOS开发证书 术语解释 cer 一种文件格式，存储的是公钥，学名证书 如何生成cer der二进制编码（cer有别于ber、der） base64编码</description>
+    </item>
+    
+    <item>
+      <title>charactoristics on hyperledger fabric</title>
+      <link>/zh-cn/posts/notes/2020-01-15-charactoristics-on-hyperledger-fabric/</link>
+      <pubDate>Wed, 15 Jan 2020 11:03:42 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-charactoristics-on-hyperledger-fabric/</guid>
+      <description>charactoristics on hyperledger fabric 一个标准的可认为是最佳实践的fabric项目应当具备的特性 初始配置 各组件启动 通道创建和加入 链码的注册和实例化 界面化的demo演示交易</description>
+    </item>
+    
+    <item>
+      <title>learn ast</title>
+      <link>/zh-cn/posts/notes/2020-01-15-learn-ast/</link>
+      <pubDate>Wed, 15 Jan 2020 11:02:41 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-learn-ast/</guid>
+      <description>抽象语法树AST https://baijiahao.baidu.com/s?id=1626159656211187310&amp;amp;wfr=spider&amp;amp;for=pc</description>
+    </item>
+    
+    <item>
+      <title>design a flow based develop and invoke system</title>
+      <link>/zh-cn/posts/notes/2020-01-15-design-a-flow-based-develop-and-invoke-system/</link>
+      <pubDate>Wed, 15 Jan 2020 11:02:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-design-a-flow-based-develop-and-invoke-system/</guid>
+      <description>design a flow based develop and invoke system todo cabala重构点： 根据接口查脚本 根据脚本反查接口 脚本写完模拟调用 接口写完模拟调用 管理页面提取成一套，根据接口名称和脚本名</description>
+    </item>
+    
+    <item>
+      <title>learn shell from start</title>
+      <link>/zh-cn/posts/notes/2020-01-15-learn-shell-from-start/</link>
+      <pubDate>Wed, 15 Jan 2020 11:01:03 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-learn-shell-from-start/</guid>
+      <description>learn shell from start 打印日期的两种方式 echo today is `date &amp;#34;+%Y-%m-%d&amp;#34;` echo today is $(date &amp;#34;+%Y-%m-%d&amp;#34;) shell中变量的使用 mypid=$$ echo &amp;ldquo;mypid:$mypid&amp;rdquo; paramCount=$# echo &amp;ldquo;paramCount:$paramCount&amp;rdquo; lastPid=$! echo &amp;ldquo;lastPid:$lastPid&amp;rdquo; lastResponse=$? echo &amp;ldquo;lastResponse:$lastResponse&amp;rdquo; setFlag=$- echo &amp;ldquo;setFlag:$setFlag&amp;rdquo; params=$* echo &amp;ldquo;params:$params&amp;rdquo; stringParams=$@ echo &amp;ldquo;stringParams:$params&amp;rdquo; param0=$0 echo &amp;ldquo;param0:$param0&amp;rdquo; param1=$1 echo &amp;ldquo;param1:$param1&amp;rdquo; printf &amp;ldquo;param1 is %s\n&amp;rdquo; $param1 for i in $@;</description>
+    </item>
+    
+    <item>
+      <title>byzantine</title>
+      <link>/zh-cn/posts/notes/2020-01-15-byzantine/</link>
+      <pubDate>Wed, 15 Jan 2020 11:00:03 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-byzantine/</guid>
+      <description>byzantine：拜占庭问题的算法 https://www.zhihu.com/question/30288330 1.5（P - E） &amp;gt; P 3 / 2 * P - 3 / 2 * E &amp;gt; P 1 / 2 * P &amp;gt; 3 / 2 * E P &amp;gt; 3 E 1 / 3 * P &amp;gt; E 如果系统中有</description>
+    </item>
+    
+    <item>
+      <title>distributed system learn key point</title>
+      <link>/zh-cn/posts/notes/2020-01-15-distributed-system-learn-key-point/</link>
+      <pubDate>Wed, 15 Jan 2020 10:58:31 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-distributed-system-learn-key-point/</guid>
+      <description>distributed system learn key point </description>
+    </item>
+    
+    <item>
+      <title>maven project directory standard</title>
+      <link>/zh-cn/posts/notes/2020-01-15-maven-project-directory-standard/</link>
+      <pubDate>Wed, 15 Jan 2020 10:56:08 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-maven-project-directory-standard/</guid>
+      <description>maven project directory standard </description>
+    </item>
+    
+    <item>
+      <title>parse request url</title>
+      <link>/zh-cn/posts/notes/2020-01-15-parse-request-url/</link>
+      <pubDate>Wed, 15 Jan 2020 10:53:49 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-parse-request-url/</guid>
+      <description>parse request url </description>
+    </item>
+    
+    <item>
+      <title>linux close selinux</title>
+      <link>/zh-cn/posts/notes/2020-01-15-linux-close-selinux/</link>
+      <pubDate>Wed, 15 Jan 2020 10:52:25 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-linux-close-selinux/</guid>
+      <description>CentOS7关闭SELinux [root@dev-server ~]# getenforce Disabled [root@dev-server ~]# /usr/sbin/sestatus SELinux status: disabled # 永久关闭 vi /etc/selinux/config # 将SELINUX=enforcing改为SELINUX=disabled</description>
+    </item>
+    
+    <item>
+      <title>operate linux firewall</title>
+      <link>/zh-cn/posts/notes/2020-01-15-operate-linux-firewall/</link>
+      <pubDate>Wed, 15 Jan 2020 10:51:33 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-operate-linux-firewall/</guid>
+      <description>centOS7永久关闭防火墙 # 查看状态 systemctl status firewalld.service # 关闭 systemctl stop firewalld.service # 开机禁用 systemctl disable firewalld.service # 开启 systemctl start firewalld.service # 开机启用 systemctl enable firewalld.service</description>
+    </item>
+    
+    <item>
+      <title>learn hibernate mybatis and orm</title>
+      <link>/zh-cn/posts/notes/2020-01-15-learn-hibernate-mybatis-and-orm/</link>
+      <pubDate>Wed, 15 Jan 2020 10:50:39 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-learn-hibernate-mybatis-and-orm/</guid>
+      <description>learn hibernate mybatis and orm todo hibernate mybatis ORM</description>
+    </item>
+    
+    <item>
+      <title>database design</title>
+      <link>/zh-cn/posts/notes/2020-01-15-database-design/</link>
+      <pubDate>Wed, 15 Jan 2020 10:48:26 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-database-design/</guid>
+      <description>数据库设计的原则 简单记录几点要点 符合业务需求 避免冗余 数据仓库设计要以哪些指标为主？ 需求 维度 指标 数据库的需求和数据仓库需求的不同 数据库要求的是</description>
+    </item>
+    
+    <item>
+      <title>derby and mysql</title>
+      <link>/zh-cn/posts/notes/2020-01-15-derby-and-mysql/</link>
+      <pubDate>Wed, 15 Jan 2020 10:47:28 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-derby-and-mysql/</guid>
+      <description>derby and mysql todo derby 哪些方面能代替mysql MariaDB 为什么是mysql的分支</description>
+    </item>
+    
+    <item>
+      <title>query linux tcp exceptional tcp connections</title>
+      <link>/zh-cn/posts/notes/2020-01-15-query-linux-tcp-exceptional-tcp-connections/</link>
+      <pubDate>Wed, 15 Jan 2020 10:45:49 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-query-linux-tcp-exceptional-tcp-connections/</guid>
+      <description>查询linux中各种状态的tcp连接 netstat -ant |grep CLOSE_WAIT|wc -l 同理可替换CLOSE_WAIT为 TIME_WAIT ESTABLISHED</description>
+    </item>
+    
+    <item>
+      <title>difference from array and arraylist</title>
+      <link>/zh-cn/posts/notes/2020-01-15-difference-from-array-and-arraylist/</link>
+      <pubDate>Wed, 15 Jan 2020 10:44:25 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-difference-from-array-and-arraylist/</guid>
+      <description>Array和ArrayList的各自特点和区别 Array 内存中是连续的 读取和赋值很快 扩容和收缩很慢 需要指定内存大小 ArrayList 不需要指定容量 方便动态扩容和收缩</description>
+    </item>
+    
+    <item>
+      <title>delete dirty lines in mysql</title>
+      <link>/zh-cn/posts/notes/2020-01-15-delete-dirty-lines-in-mysql/</link>
+      <pubDate>Wed, 15 Jan 2020 10:38:28 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-delete-dirty-lines-in-mysql/</guid>
+      <description>清楚重复数据 建表 CREATE TABLE `src5` ( `userid` int(11) unsigned NOT NULL AUTO_INCREMENT, `username` varchar(20) DEFAULT NULL, `usercode` varchar(20) DEFAULT NULL, PRIMARY KEY (`userid`) ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8; 如果usercode重复，那么可能会出现以下数据 userid username usercode 1 &amp;hellip; code0 2 &amp;hellip; code0 3 &amp;hellip; code0</description>
+    </item>
+    
+    <item>
+      <title>how to descripe in resume</title>
+      <link>/zh-cn/posts/notes/2020-01-15-how-to-descripe-in-resume/</link>
+      <pubDate>Wed, 15 Jan 2020 09:33:05 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-15-how-to-descripe-in-resume/</guid>
+      <description>写好一份技术简历的要点 几个注意点 框架是重点，但别让人感觉你只会山寨别人的代码 别单纯看单机版的框架，适当了解些分布式 数据库方面，别就知道增删改</description>
+    </item>
+    
+    <item>
+      <title>write work summary</title>
+      <link>/zh-cn/posts/notes/2020-01-14-write-work-summary/</link>
+      <pubDate>Tue, 14 Jan 2020 16:48:02 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-14-write-work-summary/</guid>
+      <description>write work summary 总结中必须包含的几大内容点 工作中暴露问题 某些方案提出合理的方案 自己工作中的提升 对来年的展望 未来公司的规划、个人的规划 工作总结要可以体现</description>
+    </item>
+    
+    <item>
+      <title>how to post by shell</title>
+      <link>/zh-cn/posts/notes/2020-01-14-how-to-post-by-shell/</link>
+      <pubDate>Tue, 14 Jan 2020 15:18:17 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-14-how-to-post-by-shell/</guid>
+      <description>how to post by shell 本篇文章留存，用作帮助使用shell去快速发布一篇文章</description>
+    </item>
+    
+    <item>
+      <title>how to auto publish post</title>
+      <link>/zh-cn/posts/notes/2020-01-14-how-to-auto-publish-post/</link>
+      <pubDate>Tue, 14 Jan 2020 15:06:01 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-14-how-to-auto-publish-post/</guid>
+      <description>how to auto publish post 我这里使用的是zsh #!/bin/zsh</description>
+    </item>
+    
+    <item>
+      <title>sentences each day</title>
+      <link>/zh-cn/posts/notes/2019-10-28-sentences-each-day/</link>
+      <pubDate>Mon, 28 Oct 2019 10:44:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-10-28-sentences-each-day/</guid>
+      <description>转载 This approach has several drawbacks for users. Therefore, before considering this approach, make sure that it will not negatively impact the user experience.</description>
+    </item>
+    
+    <item>
+      <title>shortcuts for nginx</title>
+      <link>/zh-cn/posts/notes/2019-10-28-shortcuts-for-nginx/</link>
+      <pubDate>Mon, 28 Oct 2019 10:44:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-10-28-shortcuts-for-nginx/</guid>
+      <description>转载 vim /usr/local/etc/nginx/nginx.conf sudo nginx -s reload</description>
+    </item>
+    
+    <item>
+      <title>how to use scp and tar</title>
+      <link>/zh-cn/posts/notes/2019-10-21-how-to-use-scp-and-tar/</link>
+      <pubDate>Mon, 21 Oct 2019 11:45:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-10-21-how-to-use-scp-and-tar/</guid>
+      <description>转载 scp scp /data/somefile.sometype tomcat@destinationhost:/data/newfile.type tar press: tar czf result.tar.gz sourcefile/ unpress: tar xzf result.tar.gz sourcefile/</description>
+    </item>
+    
+    <item>
+      <title>use iterm2 and oh-my-zsh to replace terminal</title>
+      <link>/zh-cn/posts/notes/2019-10-10-use-iterm2-and-oh-my-zsh-to-replace-terminal/</link>
+      <pubDate>Thu, 10 Oct 2019 15:40:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-10-10-use-iterm2-and-oh-my-zsh-to-replace-terminal/</guid>
+      <description>转载 guideline https://zhuanlan.zhihu.com/p/37195261 dylib error https://discourse.brew.sh/t/library-not-loaded-usr-local-opt-gdbm-lib-libgdbm-4-dylib/2647/5</description>
+    </item>
+    
+    <item>
+      <title>how to install flutter on mac</title>
+      <link>/zh-cn/posts/notes/2019-07-30-how-to-install-flutter-on-mac/</link>
+      <pubDate>Fri, 09 Aug 2019 09:00:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-30-how-to-install-flutter-on-mac/</guid>
+      <description>示例 # 查看flutter环境 flutter doctor # 升级flutter flutter upgrade # 查看flutter版本分支 flutter channels</description>
+    </item>
+    
+    <item>
+      <title>AbstractQueuedSynchronizer</title>
+      <link>/zh-cn/posts/notes/2019-08-09-abstract-queued-synchronizer/</link>
+      <pubDate>Fri, 09 Aug 2019 08:30:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-08-09-abstract-queued-synchronizer/</guid>
+      <description>AbstractQueuedSynchronizer Lock 使用Lock接口是java实现锁的一种方式。 Lock接口在java.util.concurrent.locks包下。 ReentrantL</description>
+    </item>
+    
+    <item>
+      <title>find java path</title>
+      <link>/zh-cn/posts/notes/2019-07-30-find-java-path/</link>
+      <pubDate>Tue, 30 Jul 2019 16:52:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-30-find-java-path/</guid>
+      <description>Mac下查看已安装的jdk版本及其安装目录 示例 /usr/libexec/java_home -V</description>
+    </item>
+    
+    <item>
+      <title>how to prove pi</title>
+      <link>/zh-cn/posts/notes/2019-07-24-how-to-prove-pi/</link>
+      <pubDate>Wed, 24 Jul 2019 14:06:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-24-how-to-prove-pi/</guid>
+      <description>https://zhuanlan.zhihu.com/p/48307582 如何证明π为常数？ &amp;ndash;为什么π是一个常数？即为什么所有圆的周长和直径之比为一个定值？ 解答： 小圆的半径r1，周长c1；大圆的半径r</description>
+    </item>
+    
+    <item>
+      <title>mysql only full group by</title>
+      <link>/zh-cn/posts/notes/2019-07-10-mysql-only-full-group-by/</link>
+      <pubDate>Wed, 10 Jul 2019 16:01:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-10-mysql-only-full-group-by/</guid>
+      <description>MySQL SQL GROUP BY是如何选择哪一条数据留下的 示例 -- 建表 CREATE TABLE `src2` ( `id` int(11) DEFAULT NULL, `name` varchar(20) DEFAULT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8; -- 查询 SELECT id, name FROM src2; 查询到的结果 id name 1 alpha 1 bravo 2 charlie 2 dolphin 查看当前mys</description>
+    </item>
+    
+    <item>
+      <title>aes encrypt in mysql</title>
+      <link>/zh-cn/posts/notes/2019-07-10-aes-encrypt-in-mysql/</link>
+      <pubDate>Wed, 10 Jul 2019 10:53:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-10-aes-encrypt-in-mysql/</guid>
+      <description>在mysql中对字符串aes加密和解密 直接上函数 # 加密 SELECT HEX(AES_ENCRYPT(&amp;#39;123456&amp;#39;,&amp;#39;root&amp;#39;)) # 解密 SELECT AES_DECRYPT(unhex(&amp;#39;537AB41AAABDEC3BAB09BE15392B916A&amp;#39;), &amp;#39;root&amp;#39;)</description>
+    </item>
+    
+    <item>
+      <title>install docker registry on centos</title>
+      <link>/zh-cn/posts/notes/2019-06-28-install-docker-registry-on-centos/</link>
+      <pubDate>Fri, 28 Jun 2019 13:06:41 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-06-28-install-docker-registry-on-centos/</guid>
+      <description>centos搭建docker私有仓库 安装docker 略过 # 重启docker systemctl daemon-reload systemctl restart docker 拉取仓库镜像 docker pull registry 运行仓库 docker run -d -v /registry:/var/lib/registry -p 5000:5000 --restart=always --privileged=true --name registry registry:latest 示例:</description>
+    </item>
+    
+    <item>
+      <title>How to install jykell on mac!</title>
+      <link>/zh-cn/posts/notes/2019-01-08-how-to-install-jykell-on-mac/</link>
+      <pubDate>Tue, 08 Jan 2019 18:46:41 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-01-08-how-to-install-jykell-on-mac/</guid>
+      <description>如何在mac上安装jykell 1.安装rvm curl -L get.rvm.io | bash -s stable source ~/.rvm/scripts/rvm rvm -v 2.安装ruby rvm install 2.6.0 rvm list 3.安装jykell gem source gem install jekyll jekyll -version 4.安装bun</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/zh-cn/posts/notes/2020-01-14-%E5%A6%82%E4%BD%95-%E4%BD%BF%E7%94%A8-jekyll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2020-01-14-%E5%A6%82%E4%BD%95-%E4%BD%BF%E7%94%A8-jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>You&#39;re up and running!</title>
+      <link>/zh-cn/posts/notes/2014-3-3-hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2014-3-3-hello-world/</guid>
+      <description>Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+![_config.yml]({{ site.baseurl }}/images/config.png)
+The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the Jekyll Now repository on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>我的编程之路</title>
+      <link>/zh-cn/posts/notes/2019-06-14-the-road-to-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-06-14-the-road-to-engineering/</guid>
+      <description>C-&amp;gt;iOS-&amp;gt;javascript-&amp;gt;Java-&amp;gt;Go</description>
+    </item>
+    
+  </channel>
+</rss>

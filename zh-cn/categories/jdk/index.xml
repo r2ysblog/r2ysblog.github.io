@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jdk on r2ys blog</title>
+    <link>/zh-cn/categories/jdk/</link>
+    <description>Recent content in jdk on r2ys blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2021-{year} r2ys. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 09 Aug 2019 09:00:00 +0800</lastBuildDate><atom:link href="/zh-cn/categories/jdk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>how to install flutter on mac</title>
+      <link>/zh-cn/posts/notes/2019-07-30-how-to-install-flutter-on-mac/</link>
+      <pubDate>Fri, 09 Aug 2019 09:00:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-30-how-to-install-flutter-on-mac/</guid>
+      <description>示例 # 查看flutter环境 flutter doctor # 升级flutter flutter upgrade # 查看flutter版本分支 flutter channels</description>
+    </item>
+    
+    <item>
+      <title>AbstractQueuedSynchronizer</title>
+      <link>/zh-cn/posts/notes/2019-08-09-abstract-queued-synchronizer/</link>
+      <pubDate>Fri, 09 Aug 2019 08:30:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-08-09-abstract-queued-synchronizer/</guid>
+      <description>AbstractQueuedSynchronizer Lock 使用Lock接口是java实现锁的一种方式。 Lock接口在java.util.concurrent.locks包下。 ReentrantL</description>
+    </item>
+    
+    <item>
+      <title>find java path</title>
+      <link>/zh-cn/posts/notes/2019-07-30-find-java-path/</link>
+      <pubDate>Tue, 30 Jul 2019 16:52:00 +0800</pubDate>
+      
+      <guid>/zh-cn/posts/notes/2019-07-30-find-java-path/</guid>
+      <description>Mac下查看已安装的jdk版本及其安装目录 示例 /usr/libexec/java_home -V</description>
+    </item>
+    
+  </channel>
+</rss>
