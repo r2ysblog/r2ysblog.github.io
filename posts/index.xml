@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>r2ys blog</title>
-    <link>/</link>
-    <description>Recent content on r2ys blog</description>
+    <title>文章 on r2ys blog</title>
+    <link>/posts/</link>
+    <description>Recent content in 文章 on r2ys blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2021-{year} r2ys. All Rights Reserved.</copyright>
-    <lastBuildDate>Thu, 16 Jan 2020 08:47:24 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Jan 2020 08:47:24 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ios develop certificate understanding</title>
       <link>/posts/notes/2020-01-16-ios-develop-certificate-understanding/</link>
